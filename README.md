@@ -182,13 +182,9 @@ After having FunL interpreter build clone **spaces** from Github:
 git clone https://github.com/anssihalmeaho/spaces
 ```
 
-Put **spaces.fnl** to some directory which can be found under **FUNLPATH** or in working directory.
-
-See more information: https://github.com/anssihalmeaho/funl/wiki/Importing-modules
-
 
 # Examples
-Example code can be found in [/examples/burger_restaurant_example.fnl]().
+Example code can be found in [/examples/burger_restaurant_example.fnl](https://github.com/anssihalmeaho/spaces/blob/main/examples/burger_restaurant_example.fnl).
 It simulates Hamburger Restaurant workflow from order to completed meal.
 Separate phases of meal preparation are triggered by adding and taking values from **space**.
 Separate phases are implemented in separate fibers loosely coupled via shared space.
